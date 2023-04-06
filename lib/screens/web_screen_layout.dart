@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:whatsappresponsiveui/colors/colors.dart';
-import 'package:whatsappresponsiveui/screens/mobil_chat_screen.dart';
-import 'package:whatsappresponsiveui/widgets/chat_list.dart';
-import 'package:whatsappresponsiveui/widgets/contacts_list.dart';
+
 import 'package:whatsappresponsiveui/widgets/info.dart';
 import 'package:whatsappresponsiveui/widgets/my_message_card.dart';
 import 'package:whatsappresponsiveui/widgets/sender_message_card.dart';
-import 'package:whatsappresponsiveui/widgets/web_chat_appbar.dart';
 import 'package:whatsappresponsiveui/widgets/web_profile_bar.dart';
 import 'package:whatsappresponsiveui/widgets/web_search_bar.dart';
 

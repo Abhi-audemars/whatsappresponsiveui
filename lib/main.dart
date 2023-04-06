@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:whatsappresponsiveui/colors/colors.dart';
-import 'package:whatsappresponsiveui/new_file.dart';
 import 'package:whatsappresponsiveui/responsive/responsive_layout.dart';
 import 'package:whatsappresponsiveui/screens/mobile_screen_layout.dart';
 import 'package:whatsappresponsiveui/screens/web_screen_layout.dart';
@@ -25,7 +24,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home:
-        // WhatsAppWebUI()
       const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),
         webScreenLayout: WebScreenLayout(),

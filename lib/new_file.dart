@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class WhatsAppWebUI extends StatefulWidget {
+  const WhatsAppWebUI({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _WhatsAppWebUIState createState() => _WhatsAppWebUIState();
 }
 
@@ -112,7 +115,7 @@ class _WhatsAppWebUIState extends State<WhatsAppWebUI> {
                       IconButton(
                         icon: const Icon(Icons.send),
                         onPressed: () {
-                          String message = messageInputController.text;
+                          // String message = messageInputController.text;
                           messageInputController.clear();
                           setState(() {
                             // add new message to chat screen
