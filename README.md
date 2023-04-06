@@ -1,16 +1,8 @@
 # whatsappresponsiveui
 
-A new Flutter project.
+Working whats app web UI deployed on netlify.Made using flutter and dart.
 
-## Getting Started
+## Screenshot
+![WApic](https://user-images.githubusercontent.com/126351083/230312133-0d43627c-5708-4301-a577-4fcc6d789ebd.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
