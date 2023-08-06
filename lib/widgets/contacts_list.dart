@@ -10,7 +10,6 @@ class ContactsList extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 10),
       child: ListView.builder(
-        
         shrinkWrap: true,
         itemCount: info.length,
         itemBuilder: (context, index) {
@@ -20,15 +19,13 @@ class ContactsList extends StatelessWidget {
                 padding: const EdgeInsets.only(bottom: 8),
                 child: ListTile(
                   onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => MobileChatScreen(index: index),
-                  ),
-                );
-                // Navigator.of(context).push(MaterialPageRoute(
-                //     builder: (context) => const MobileChatScreen()));
-              },
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MobileChatScreen(index: index),
+                      ),
+                    );
+                  },
                   title: Text(
                     info[index]['name'].toString(),
                     style: const TextStyle(fontSize: 15, color: Colors.white),
@@ -37,11 +34,11 @@ class ContactsList extends StatelessWidget {
                     padding: const EdgeInsets.only(top: 6),
                     child: Text(
                       info[index]['message'].toString(),
-                      style:
-                          const TextStyle(fontSize: 15, color: Colors.grey),
+                      style: const TextStyle(fontSize: 15, color: Colors.grey),
                     ),
                   ),
                   leading: CircleAvatar(
+                    radius: 25,
                     backgroundImage:
                         NetworkImage(info[index]['profilePic'].toString()),
                   ),
